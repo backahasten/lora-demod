@@ -20,11 +20,15 @@ Work under Octave:
 
 Install:
 
->$ sudo apt install liboctave-dev  octave>
+>$ sudo apt install liboctave-dev  octave
+
 then go into octave shell to install pkgs
->pkg install -forge control>
->pkg install -forge signal>
+
+>pkg install -forge control
+
+>pkg install -forge signal
 
 Run:
->pkg load signal>
->lora_sig_demod('WaterMeter_NID1_PL6_BW125_SF11.cs8',70,3);>
+>pkg load signal
+
+>lora_sig_demod('WaterMeter_NID1_PL6_BW125_SF11.cs8',70,3);
